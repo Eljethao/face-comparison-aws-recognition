@@ -1,0 +1,55 @@
+.card {
+  border-radius: 10px;
+}
+
+.badge-success {
+  background-color: #28a745;
+}
+
+.badge-danger {
+  background-color: #dc3545;
+}
+
+
+/* Container styling for the preformatted JSON data */
+pre {
+  background-color: #f8f9fa;
+  /* Light grey background */
+  color: #333;
+  /* Darker text for better readability */
+  padding: 15px;
+  /* Space around the text */
+  border-radius: 5px;
+  /* Rounded corners for smoother look */
+  border: 1px solid #ddd;
+  /* Light border */
+  max-height: 500px;
+  /* Limit the height in case of large data */
+  overflow-y: auto;
+  /* Scroll vertically if content exceeds height */
+  font-family: 'Courier New', Courier, monospace;
+  /* Monospace font for code-like feel */
+  font-size: 14px;
+  /* Slightly smaller font size */
+}
+
+/* Optional: Adding colors to JSON keys */
+pre span.key {
+  color: #0056b3;
+  /* Blue for keys */
+}
+
+pre span.value {
+  color: #d63384;
+  /* Pink for values */
+}
+
+pre span.boolean {
+  color: #198754;
+  /* Green for booleans */
+}
+
+pre span.null {
+  color: #6c757d;
+  /* Grey for null values */
+}
